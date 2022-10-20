@@ -1,0 +1,57 @@
+@media (max-width: 980px){
+    /*Todo código deve ser desenvolvido aqui dentro.*/
+    body{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      background-color: rgba(255, 252, 232, 1);
+
+    }
+    .logo{
+        height: 40%;
+        width: 40%;
+        align-self: center;
+        margin-top: 26px;
+        margin-bottom: 26px;
+    }
+    .inputLogin{
+        border-radius: 23px;
+        margin: 15px;
+        width: 70%;
+        height: 40px;
+        align-self: center;
+        background-color: radial-gradient(86.8% 325.5% at 8% 0%, #FFFFFF 0%, #FFFCE8 100%);
+        padding: 5px;
+        border: none;
+        box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
+
+    }
+    .inputLogin:focus{
+        outline: none;
+    }
+    .lembrar{
+        width: 38px;
+        height: 24px;
+        background: #FFFCE8;
+
+    }
+    .entrar{
+        background: radial-gradient(86.8% 325.5% at 8% 0%, #F5A598 0%, #F090B8 100%);
+        border: none;
+        border-radius: 23px;
+        color: white;
+        font-weight: 14px;
+        width: 70%;
+        height: 40px;
+        align-self: center;
+        margin: 15px;
+        box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
+
+    }
+    .configSenha{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
