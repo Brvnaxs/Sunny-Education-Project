@@ -64,7 +64,6 @@
         align-self: center;
         margin: 15px;
         box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
-        margin-bottom: 30px;
 
     }
     .configSenha{
@@ -77,6 +76,12 @@
     }
     .configSenha p{
         margin: 10px;
+    }
+    .linkCadastro{
+        margin-bottom: 30px;
+        font-family: var(--fontTextoSimples);
+        font-size: 12px;
+        align-self: center;
     }
     .rochas{
         display: inline;
