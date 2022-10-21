@@ -3,7 +3,7 @@
     --corFundo: rgba(255, 252, 232, 1);
     --roxinho: #eba4ff;
     
-    
+  
 }
 @media (max-width: 980px){
     /*Versão mobile*/
@@ -13,6 +13,14 @@
       flex-direction: column;
       background-color: var(--corFundo);
 
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
+    a:hover{
+        border-bottom: #F090B8 solid 2px;
     }
     .planeta{
         margin-top: -10%;

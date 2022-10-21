@@ -1,0 +1,50 @@
+/*Falta:
+add: nuvens e fazer animações
+*/
+
+:root{
+    --TextoSimples: 'Lato', sans-serif;
+    --corFundo: rgba(255, 252, 232, 1);
+    --roxinho: #eba4ff;  
+}
+@media (max-width: 980px){
+    /*Versão mobile*/
+    body{
+        display: flex;
+        background-color: var(--corFundo);
+        flex-direction: column;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+   .dog{
+    width: 279px;
+    height: 248px;
+    align-self: center;
+   }
+   .welcome{
+    margin-top: 20px;
+    width: 173px;
+    height: 35px;
+    align-self: center;
+   }
+   .text{
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    align-self: center;
+    text-align: center;
+   }
+   button{
+    height: 58px;
+    width: 161px;
+    background-color: var(--corFundo);
+    border: 4px solid #F8C1BA;
+    border-radius: 30px;
+    margin-top: 80px;
+    padding-top: 10px;
+    cursor: pointer;
+   }
+   
+}
