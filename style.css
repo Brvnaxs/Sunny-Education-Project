@@ -1,17 +1,26 @@
+:root{
+    --fontTextoSimples: 'Lato', sans-serif;
+    --corFundo: rgba(255, 252, 232, 1);
+    --roxinho: #eba4ff;
+    
+    
+}
 @media (max-width: 980px){
-    /*Todo código deve ser desenvolvido aqui dentro.*/
+    /*Versão mobile*/
     body{
       display: flex;
       justify-content: center;
       flex-direction: column;
-      background-color: rgba(255, 252, 232, 1);
+      background-color: var(--corFundo);
 
+    }
+    .planeta{
+        margin-top: -10%;
     }
     .logo{
         height: 40%;
         width: 40%;
         align-self: center;
-        margin-top: 26px;
         margin-bottom: 26px;
     }
     .inputLogin{
@@ -31,10 +40,19 @@
     }
     .lembrar{
         width: 38px;
-        height: 24px;
-        background: #FFFCE8;
-
+        height: 20px;
+        background: var(--roxinho);
+        appearance: none;
+        border-radius: 29px;
     }
+    .lembrar::-webkit-slider-thumb{
+        appearance: none;
+        height: 23px;
+        width: 23px;
+        border-radius: 23px;
+        background: var(--roxinho);
+    }
+    
     .entrar{
         background: radial-gradient(86.8% 325.5% at 8% 0%, #F5A598 0%, #F090B8 100%);
         border: none;
@@ -46,12 +64,35 @@
         align-self: center;
         margin: 15px;
         box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
+        margin-bottom: 30px;
 
     }
     .configSenha{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         align-items: center;
+        font-size: 12px;
+        align-self: center;
+        font-family: var(--fontTextoSimples);
     }
+    .configSenha p{
+        margin: 10px;
+    }
+    .rochas{
+        display: inline;
+        margin-left: -30px;
+        position: relative;
+    }
+    .astronauta{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        margin-top: -10%;
+        align-self: center;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
