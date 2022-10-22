@@ -50,4 +50,29 @@
         margin: 15px;
         box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
     }
+    .termos{
+        font-family: var(--fontTextoSimples);
+        color: var(--roxinho);
+        align-self: center;
+        font-size: 10px;
+        border-bottom: var(--roxinho) solid 2px;
+    }
+    .opcaoLogin{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        justify-content: center;
+    }
+    .opcaoLogin img{
+        padding: 5px;
+        height: 30px;
+        width: 30px;
+    }
+    .retornoLogin{
+        font-family: var(--fontTextoSimples);
+        font-size: 10px;
+        align-self: center;
+        margin: 10px;
+        justify-content: center;
+    }
 }
