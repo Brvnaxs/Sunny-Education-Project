@@ -12,6 +12,7 @@
       justify-content: center;
       flex-direction: column;
       background-color: var(--corFundo);
+      height: 100vh;
 
     }
     a{
@@ -26,16 +27,16 @@
         height: 40%;
         width: 40%;
         align-self: center;
-        margin-bottom: 26px;
+        margin-bottom: 1.62rem;
     }
     .inputLogin{
-        border-radius: 23px;
-        margin: 15px;
+        border-radius: 1.43rem;
+        margin: 0.93rem;
         width: 70%;
-        height: 40px;
+        height: 2.5rem;
         align-self: center;
         background-color: radial-gradient(86.8% 325.5% at 8% 0%, #FFFFFF 0%, #FFFCE8 100%);
-        padding: 5px;
+        padding: 0.312rem;
         border: none;
         box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
 
@@ -44,30 +45,30 @@
         outline: none;
     }
     .lembrar{
-        width: 38px;
-        height: 20px;
+        width: 2.37rem;
+        height: 1.25rem;
         background: #f1c0fe;
         appearance: none;
-        border-radius: 29px;
+        border-radius: 1.81rem;
     }
     .lembrar::-webkit-slider-thumb{
         appearance: none;
-        height: 23px;
-        width: 23px;
-        border-radius: 23px;
+        height: 1.43rem;
+        width: 1.43rem;
+        border-radius: 50%;
         background: var(--roxinho);
     }
     
     .entrar{
         background: radial-gradient(86.8% 325.5% at 8% 0%, #F5A598 0%, #F090B8 100%);
         border: none;
-        border-radius: 23px;
+        border-radius: 1.43rem;
         color: white;
-        font-weight: 14px;
+        font-weight: 0.875rem;
         width: 70%;
-        height: 40px;
+        height: 2.5rem;
         align-self: center;
-        margin: 15px;
+        margin: 0.937rem;
         box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
 
     }
@@ -75,17 +76,17 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        font-size: 12px;
+        font-size: 0.75rem;
         align-self: center;
         font-family: var(--fontTextoSimples);
     }
     .configSenha p{
-        margin: 10px;
+        margin: 0.625rem;
     }
     .linkCadastro{
-        margin-bottom: 30px;
+        margin-bottom: 1.87rem;
         font-family: var(--fontTextoSimples);
-        font-size: 12px;
+        font-size: 0.75rem;
         align-self: center;
     }
     .rochas{
@@ -94,8 +95,8 @@
         position: relative;
     }
     .astronauta{
-        height: 100px;
-        width: 100px;
+        height: 6.25rem;
+        width: 6.25rem;
         position: absolute;
         margin-top: -10%;
         align-self: center;
